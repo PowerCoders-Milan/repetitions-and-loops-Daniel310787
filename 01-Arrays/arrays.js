@@ -1,5 +1,5 @@
 // use this array
-var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+
 
 // Access and output Oranges.
 
@@ -10,4 +10,20 @@ var array = ["Banana", "Apples", "Oranges", "Blueberries"];
 // Remove "Apples" from the array.
 
 // Sort the array in reverse order, i.e. ['a', 'c', 'b'] becomes ['b', 'c', 'a'])
+
+var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+
+console.log(array[2])
+
+array.shift()
+
+array.sort()
+
+array.push("kiwi")
+
+array.shift()
+
+array.reverse()
+
+console.log(array)
 
