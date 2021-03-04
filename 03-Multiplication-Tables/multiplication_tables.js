@@ -8,10 +8,10 @@ for(var num = 0; num <= 10; num++) {
 //extra
 
 function number (num, n) {
-    var num = prompt("Can I get any number from 0-10")
+    var num = Math.floor((Math.random() * 10) + 1);
     for(var n = 0; n <= 10; n++){
         var result = num * n;
-        window.alert(num + " * " + n + " = " + result)
+        console.log(num + " * " + n + " = " + result)
     }
 }
 
